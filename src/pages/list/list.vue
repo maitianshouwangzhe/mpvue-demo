@@ -14,15 +14,26 @@
 
       <div>
         <!-- 引入组件  -->
-        <ListTemp/>
+        <ListTemp v-for="(item, index) in listTemp" :key="index" :item="item" :index="index"/>
       </div>
 
     </div>
 </template>
 
 <script>
+  import {mapState} from 'vuex'
   import ListTemp from '../list_temp/ListTemp'
   export default {
+
+    beforeMount(){
+      // 分发action
+      this.$store.dispatch('getList')
+    },
+
+    computed:{
+      ...mapState(['listTemp'])
+    },
+
     components: {
       ListTemp,
     }

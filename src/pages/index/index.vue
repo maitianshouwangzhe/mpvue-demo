@@ -4,7 +4,7 @@
       <img v-if=" userInfo.nickName || isShow " class="index_img" :src="userInfo.avatarUrl" alt="logo">
       <Button v-else class="btn" open-type="getUserInfo" @getuserinfo="getUserInfo">点击获取用户信息</Button>
       <p class="userName">hello {{userInfo.nickName}}</p>
-      <div class="goStudy" @tap="toDetail">
+      <div class="goStudy" @tap="toListPage">
         <!-- 阻止向上的冒泡事件, 即：仅仅执行此处绑定的事件，不执行外部父元素的事件  -->
         <!--
              <p @tap.stop="toChild">开启第一个小程序之旅</p>
@@ -52,7 +52,7 @@
         }
       },
 
-      toDetail(){
+      toListPage(){
         // 页面的路由跳转
         wx.navigateTo({
           url: '/pages/list/main',
