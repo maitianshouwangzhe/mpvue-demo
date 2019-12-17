@@ -6,7 +6,6 @@
   ],
   "window": {
     "navigationBarBackgroundColor": "#489B99"
-  }
-
-
+  },
+  "requiredBackgroundModes": ["audio"]
 }

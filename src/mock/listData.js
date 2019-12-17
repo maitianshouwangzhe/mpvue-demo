@@ -16,8 +16,8 @@ let list_data = [
     attention_count: 66,
     detail: '钢铁战队。。',
     music: {
-      dataUrl: 'http://up.mcyt.net/down/46100.mp3', // 音乐链接
-      title: 'IF-Ken Arai',   // 音乐标题
+      dataUrl: 'http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C400004Fs2FP1EvZYc.m4a?guid=773629676&vkey=0EF2F22BFA530CB5AD7474522A826F782ABDA9A94B53C684D319BC7F257A2967679F8CD8172C8F191951FBF5656C3001D2021200AF76B94A&uin=0&fromtag=38', // 音乐链接
+      title: '周杰伦--晴天',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 0
@@ -38,8 +38,8 @@ let list_data = [
     attention_count: 66,
     detail: '有魅力的老男人。',
     music: {
-      dataUrl: 'http://www.ytmp3.cn/down/50395.mp3', // 音乐链接
-      title: '一路向北',   // 音乐标题
+      dataUrl: 'http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C400000CTiz73EZBjB.m4a?guid=773629676&vkey=BCCDE74E1A525D5E7D6F33892EEED3A915D9D7195CD4BCBD2639DAC3FDC4F3645CD48ECA612CE4E3DF3E285E92A4F3481BF6B7202D3E6602&uin=0&fromtag=38', // 音乐链接
+      title: '周杰伦--稻香',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 1
@@ -60,8 +60,8 @@ let list_data = [
     attention_count: 66,
     detail: '巨无霸教授。',
     music: {
-      dataUrl: 'http://www.ytmp3.cn/down/50355.mp3', // 音乐链接
-      title: '听海',   // 音乐标题
+      dataUrl: 'http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C400000Hv0Nh0m4ye8.m4a?guid=773629676&vkey=2CCC9CAFFF50F23AB725D8154DA0BB3C48FE7A62E57BACD7B853C1401C5335DFB365E087EB5117FC57F2A627DE391E278CC6AA6D22F9CB78&uin=0&fromtag=38', // 音乐链接
+      title: '陈奕迅--富士山下',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 2
@@ -79,8 +79,8 @@ let list_data = [
     attention_count: 88,
     avatar: '/static/images/avatar/1.png',
     music: {
-      dataUrl: 'http://up.mcyt.net/down/46101.mp3', // 音乐链接
-      title: 'Sunset Jesus-Avicii',   // 音乐标题
+      dataUrl: 'http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C400001HpQd41w3Hxd.m4a?guid=773629676&vkey=A20C3D0FEB750256851A1B8505856DCCBDA8C26500243481DF0C39E776D0F28190AA7EFBD58546F5AF4BF694D72132920B9896BA96A77494&uin=0&fromtag=38', // 音乐链接
+      title: '陈奕迅--爱情转移',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 3
@@ -98,8 +98,8 @@ let list_data = [
     author: '新华社',
     avatar: '/static/images/avatar/2.png',
     music: {
-      dataUrl: 'http://up.mcyt.net/down/46102.mp3', // 音乐链接
-      title: '汪峰 - 儿时',   // 音乐标题
+      dataUrl: 'http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C400004cc3OU0GLJHb.m4a?guid=773629676&vkey=EE69A38DEC666807FD29371C88F322AAA521EB8938D680E47320BD349A799A728D1EB1275CA425B8DF322B8F029DF62B6690C629F4458253&uin=0&fromtag=38', // 音乐链接
+      title: '陈奕迅--不要说话',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 4
@@ -119,8 +119,8 @@ let list_data = [
     attention_count: 66,
     detail: '女神。。。',
     music: {
-      dataUrl: 'http://up.mcyt.net/down/46110.mp3', // 音乐链接
-      title: '曲婉婷 - 我的歌声里-(电视剧《在线爱》主题曲)',   // 音乐标题
+      dataUrl: 'http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C400003NikJo0a0uzm.m4a?guid=773629676&vkey=8F1741F8399349AF55F22015389550C04C5BBF118ED561DBE465A1E143BC199957B7B4759AA51AB34267519C45831F2D9E6CAEA861CA9862&uin=0&fromtag=38', // 音乐链接
+      title: '林俊杰 - 江南',   // 音乐标题
       coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
     },
     postId: 5
@@ -140,9 +140,9 @@ let list_data = [
     attention_count: 66,
     detail: '女神2。。。',
     music: {
-      dataUrl: 'http://up.mcyt.net/down/46100.mp3', // 音乐链接
-      title: 'IF-Ken Arai',   // 音乐标题
-      coverImgUrl: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
+      dataUrl: 'http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C400001PLl3C4gPSCI.m4a?guid=773629676&vkey=D45D36E06EBC0D1C67025FA595EBE017416626285F3684A3DFFDC4861A9993DFF240FE48C1B8B54A9AE6F0B9BF074853BAF194689482595A&uin=0&fromtag=38', // 音乐链接
+      title: '周杰伦--我是如此相信',   // 音乐标题
+      coverImgUrl: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000000q5U9S2OLNg4.jpg?max_age=2592000',
     },
     postId: 6
   },
