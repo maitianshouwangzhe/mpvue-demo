@@ -13,11 +13,12 @@
       <div class="collect_share">
         <img @tap="handleCollection" :src=" isCollection ? '/static/images/icon/collection.png' : '/static/images/icon/collection-anti.png' ">
 <!--        <img :src=" isShared ? '/static/images/icon/share-anti.png' : '/static/images/icon/share.png' ">-->
-        <img src="/static/images/icon/share-anti.png">
+        <img @tap="handleShare" src="/static/images/icon/share-anti.png">
       </div>
       <div class="line"></div>
     </div>
-    <Button>转发此文章</Button>
+    <!--  分享窗口 -->
+    <Button open-type="share">转发此文章</Button>
     <p class="content">{{detailObj.detail_content}}</p>
   </div>
 </template>
@@ -70,7 +71,7 @@
      }
 
      // 判断当前页面加载时,音乐是否在播放
-     // 有这些情况：一、仍跳转至该页面； 二、进入另一个页面（上一次的状态的保留了下来）。
+     // 有这些情况：一、仍跳转至该页面； 二、进入另一个页面（注：上一次的状态的保留了下来）。
      ( isPlayObj.pageIndex === this.index &&  isPlayObj.isPlay ) ?  this.isMusicPlay = true : this.isMusicPlay = false
 
      // 反向操作（在弹出的音乐播放器中点击）：监听音乐的播放和暂停,
@@ -136,6 +137,14 @@
           // 暂停
           wx.pauseBackgroundAudio()
         }
+      },
+
+      handleShare(){
+        wx.showActionSheet({
+          itemList: [
+            '分享到朋友圈', '分享到微博', '分享给微信好友'
+          ]
+        })
       },
 
 

@@ -53,9 +53,15 @@
       },
 
       toListPage(){
+        /*
+        // navigateTo不能应用于tabBar页面的跳转
         // 页面的路由跳转
         wx.navigateTo({
           url: '/pages/list/main',
+        })
+        */
+        wx.switchTab({
+          url: '/pages/list/main'
         })
       },
 

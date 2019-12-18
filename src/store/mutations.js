@@ -6,5 +6,9 @@ export default {
   [RECEIVE_LIST](state, {list_data}){
     console.log('list_data的数据',  list_data, typeof (list_data) )
     state.listTemp = list_data
+  },
+
+  RECEIVE_MOVIES_LIST(state, {result}){
+    state.moviesArr = result
   }
 }
